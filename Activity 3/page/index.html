@@ -2,114 +2,159 @@
 <html>
     <head>
         <title>Alvy's Activity 3</title>
-        <link rel="stylesheet" href="style.css">
+    <link href="../css/style.css" rel="stylesheet">
     </head>
+
 <body>
 
-<h1>ACTIVITY 3</h1>
-<p>Learning JavaScript from JS Data Types to JS Math</p>
+<h2>ACTIVITY 3</h2>
+<h1>Learning JavaScript from JS Data Types to JS Math</h1>
 
-<h1>JS Data Types</h1>
-<p><b>definition</b></p>
-<p id="dataTypes"></p>
-<script src="JS/datatypes.js"></script>
+<h1><hr>JS Data Types</h1>
+<p><b>When adding a number and a string, JavaScript will treat the number as a string.</b></p>
+<p id="dataTypes"></p> 
+<script src="../js/datatypes.js"></script>
 
 <h1>JS Functions</h1>
-<p></p>
+<p>
+    <b>A JavaScript function is a block of code designed to perform a particular task.
+    <br> A JavaScript function is executed when "something" invokes it (calls it).
+    <br>This example calls a function which performs a calculation, and returns the result:</b></p>
 <p id="functions"></p>
-<script src="JS/functions.js"></script>
+<script src="../js/functions.js"></script>
 
 <h1>JS Objects</h1>
-<p><b></b></p>
-<p id="objects"></p>
-<script src="JS/objects.js"></script>
+<p><b>This code assigns a simple value (Visual Arts) to a variable named course:</b></p>
+    <p id="objectsCourse"></p>
+<p><b>Objects are variables too. But objects can contain     values.
+    <br>This code assigns many values (Watercolor Paint, Senilier, 24) to a variable named artMaterial:</b></p>
+    <p id="objectsArtMaterial"></p>
+<script src="../js/objects.js"></script>
 
 <h1>JS Events</h1>
-<p><b>Single-line and Multi-line Comments</b></p>
-<p id="objects"></p>
-<script src="JS/events.js"></script>
+<p><b>HTML events are "things" that happen to HTML elements.
+<br>When JavaScript is used in HTML pages, JavaScript can "react" on these events.
+</b></p>
+<p id="events"></p>
+<script src="../js/events.js"></script>
 
 <h1>JS Strings</h1>
-<p><b></b></p>
+<p><b>JavaScript strings are for storing and manipulating text.
+<br> A JavaScript string is zero or more characters written inside quotes.
+<br> You can use single or double quotes:</b></p>
 <p id="strings"></p>
-<script src="JS/strings.js"></script>
+<script src="../js/strings.js"></script>
 
 <h1>JS String Methods</h1>
-<p><b>Redeclaring a Variable using let</b></p>
+<p><b>JavaScript String Properties
+    <br>The length property returns the length of a string:</b></p>
 <p id="stringMethods"></p>
-<script src="JS/stringmethods.js"></script>
+<script src="../js/stringmethods.js"></script>
 
 <h1>JS String Search</h1>
-<p><b>Declaring a constant array does NOT make the elements unchangeable:</b></p>
+<p><b>JavaScript String Methods
+    <br>The indexOf() method returns the position of the first occurrence of a specified text:</b></p>
 <p id="stringSearch"></p>
-<script src="JS/stringsearch.js"></script>
+<script src="../js/stringsearch.js"></script>
 
 <h1>JS Templates</h1>
-<p><b>Addition Operator</b></p>
-<p id="stringTemplates"></p>
-<script src="JS/stringtemplates.js"></script>
+<p><b>JavaScript Template Literals
+    <br>Template literals use back-ticks (``) to define a string::
+</b></p>
+<p id="stringBackticks"></p>
+<p><b>With back-ticks, you can use both single and double quotes inside a string:</b></p>
+<p id="stringQuotes"></p>
+<script src="../js/stringtemplates.js"></script>
 
 <h1>JS Numbers</h1>
-<p>JavaScript has precedence over addition.</p>
-<p id="numbers"></p>
-<script src="JS/numbers.js"></script>
+<p><B>JavaScript Numbers
+    <br>Numbers can be written with or without decimals:
+</B></p>
+<p id="numbersDecimals"></p>
+<script src="../js/numbers.js"></script>
 
 <h1>JS Number Methods</h1>
-<p><b>The =+ Operator</b></p>
+<p><b>Number Methods and Properties </b>
+    <br>Primitive values (like 3.14 or 2014), cannot have properties and methods (because they are not objects).
+    <br>But with JavaScript, methods and properties are also available to primitive values, <br> because JavaScript 
+        treats primitive values as objects when executing methods and properties.</p>
+<p><b>The toString() Method</b>
+    <br>The toString() method returns a number as a string.<br>
+    All number methods can be used on any type of numbers (literals, variables, or expressions):</p>
 <p id="numberMethods"></p>
-<script src="JS/numbermethods.js"></script>
+<script src="../js/numbermethods.js"></script>
 
 <h1>JS Arrays</h1>
-<p><b>The =+ Operator</b></p>
+<p><b>An array is a special variable, which can hold more than one value:
+</b></p>
 <p id="arrays"></p>
-<script src="JS/arrays.js"></script>
+<script src="../js/arrays.js"></script>
 
 <h1>JS Array Methods</h1>
-<p><b>The =+ Operator</b></p>
+<p><b>Converting Arrays to Strings
+   <br> The JavaScript method toString() converts an array to a string of (comma separated) array values.</b></p>
 <p id="arrayMethods"></p>
-<script src="JS/arraymethods.js"></script>
+<script src="../js/arraymethods.js"></script>
 
 <h1>JS Array Sort</h1>
-<p><b>The =+ Operator</b></p>
-<p id="arraySort"></p>
-<script src="JS/arraysort.js"></script>
+<p><b>The sort() method sorts an array alphabetically:</b></p>
+<p id="arraySort1"></p>
+<p id="arraySort2"></p>
+<p><b>The reverse() method reverses the elements in an array.<br>
+    By combining sort() and reverse() you can sort an array in descending order:</b></p>
+<p id="arrayReverse"></p>
+<script src="../js/arraysort.js"></script>
 
 <h1>JS Array Iteration</h1>
-<p><b>The =+ Operator</b></p>
+<p>Array iteration methods operate on every array item.
+   <br><b>JavaScript Array forEach()</b><br>
+    The forEach() method calls a function (a callback function) once for each array element.</p>
 <p id="arrayIteration"></p>
-<script src="JS/arrayiteration.js"></script>
+<script src="../js/arrayiteration.js"></script>
 
 <h1>JS Array Const</h1>
-<p><b>The =+ Operator</b></p>
+<p><b>ECMAScript 2015 (ES6)</b>
+    in 2015, JavaScript introduced an important new keyword: const.<br>
+    It has become a common practice to declare arrays using const:</p>
+<p>Declaring a constant array does NOT make the elements unchangeble. Below are types of brush:</p>
 <p id="arrayConst"></p>
-<script src="JS/arrayconst.js"></script>
+<script src="../js/arrayconst.js"></script>
 
 <h1>JS Dates</h1>
-<p> </p>
+<p><b>Using new Date(), creates a new date object with the current date and time:</b></p>
 <p id="dates"></p>
-<script src="JS/dates.js"></script>
+<script src="../js/dates.js"></script>
 
 <h1>JS Date Formats</h1>
-<p> </p>
-<p id="dates"></p>
-<script src="JS/dates.js"></script>
+<p><b>JavaScript ISO Dates</b>
+    ISO 8601 is the international standard for the representation of dates and times.<br></p>
+    <p><b>The ISO 8601 syntax (YYYY-MM-DD) is also the preferred JavaScript date format:</b></p>
+<p id="dateFormats"></p>
+<script src="../js/dateformats.js"></script>
 
 <h1>JS Date Get Methods</h1>
-<p> </p>
-<p id="dates"></p>
-<script src="JS/dateGetMethods.js"></script>
+<p><b>JavaScript getMonth()</b></p>
+<p>The getMonth() method returns the month as a number.</p>
+<p>You can use an array to display the name of the month:</p>
+<p id="dateGetMethods"></p>
+<script src="../js/dategetmethods.js"></script>
 
 <h1>JS Date Set Methods</h1>
-<p> </p>
+<p>Set Date methods let you set date values (years, months, days, hours, minutes, seconds, milliseconds) for a Date Object.</p>
+<p><b>JavaScript setFullYear()</b></p>
+<p>The setFullYear() method sets the year of a date object:</p>
 <p id="dateSetMethods"></p>
-<script src="JS/datesetmethods.js"></script>
+<script src="../js/datesetmethods.js"></script>
 
 <h1>JS Math</h1>
-<p> </p>
+<p>The JavaScript Math object allows you to perform mathematical tasks on numbers.</p>
+<p><b>Math Properties (Constants)</b>
+    The syntax for any Math property is : Math.property.<br>
+    JavaScript provides 8 mathematical constants that can be accessed as Math properties:</p>
 <p id="math"></p>
-<script src="JS/math.js"></script>
+<script src="../js/math.js"></script>
 
-<p>This activity is made by Alvy Sumena :)</p>
+<h3>This activity is made by Alvy Sumena :)</h3>
 
 </body>
 </html>
